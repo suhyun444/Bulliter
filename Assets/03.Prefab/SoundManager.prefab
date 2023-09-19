@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7328559986266106298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7328559986266106292}
+  - component: {fileID: 7328559986266106299}
+  - component: {fileID: 7328559986266106293}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7328559986266106292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328559986266106298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 260.625, y: 144.91228, z: 38.900852}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &7328559986266106299
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328559986266106298}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &7328559986266106293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328559986266106298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bab958ee277af44888780ce7c937fc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAudio: {fileID: 0}
+  Crocodile_Attack: {fileID: 8300000, guid: 32e80c8a31a150c40ba7a8d1b0f2440b, type: 3}
+  Crocodile_Dead: {fileID: 8300000, guid: 9daf97bf21d03e34d9f58d3bdae10603, type: 3}
+  Plant_Attack: {fileID: 8300000, guid: 48f50f17cdd80c441b0028421d519e7f, type: 3}
+  Plant_Dead: {fileID: 8300000, guid: 474fecdd9b8102f41a396436d2c7c02a, type: 3}
+  Snake_Intro: {fileID: 8300000, guid: a66dfd41948e72944ac3e495b5dbaca3, type: 3}
+  Snake_Poison: {fileID: 8300000, guid: 8fa01236a7d6dd74f9c56cb2c5361d57, type: 3}
+  Snake_Spin: {fileID: 8300000, guid: b7e60ded50e30d442a1e387883a2ce66, type: 3}
+  Snake_Rain: {fileID: 8300000, guid: fb6667655bfd894488c39c9f0ae14988, type: 3}
+  Snake_Dead: {fileID: 8300000, guid: c8457cfc697cc5642a88fd3857cacd9e, type: 3}
+  Scolpion_Attack: {fileID: 8300000, guid: e39586c6916f34c43a21e2916469a688, type: 3}
+  Scolpion_Dead: {fileID: 8300000, guid: a4f758253a2f43742aeb1f6899a2d184, type: 3}
+  Mummy_Attack: {fileID: 8300000, guid: 66ccb2799a051ca4ea9ec738a45b4e29, type: 3}
+  Mummy_Dead: {fileID: 8300000, guid: 842c0ebd129a3ad4fa43c61a33202049, type: 3}
+  OWO_Intro: {fileID: 8300000, guid: 21da10a3aff69f34895cb51e36659cf9, type: 3}
+  OWO_ATK1: {fileID: 8300000, guid: 04c789b834a10784caeeb50705e101aa, type: 3}
+  OWO_ATK2: {fileID: 8300000, guid: 628978853cdc97243ad47167dfaf877c, type: 3}
+  OWO_ATK3: {fileID: 8300000, guid: 414d12a66f6de674396f169254171037, type: 3}
+  OWO_Toin: {fileID: 8300000, guid: 18cd6a321554e364d92c20fd53412afb, type: 3}
+  OWO_Toout: {fileID: 8300000, guid: 6338d408eada0504cb4ba3af2b45e2f6, type: 3}
+  OWO_Dead: {fileID: 8300000, guid: 0c9502628879e7443814b082092d44b5, type: 3}
+  Bear_Attack: {fileID: 8300000, guid: 8ce6d53a2db0ec448a2fd720833c2a90, type: 3}
+  Bear_Dead: {fileID: 8300000, guid: 95947fd356e26874faba953bd36f1357, type: 3}
+  Snowman_Attack: {fileID: 8300000, guid: c7565febcf1105f4d8e8181bd55e35ac, type: 3}
+  Snowman_Dead: {fileID: 8300000, guid: b6f8f83f1c2e50d4bbdbcaf78143cb77, type: 3}
+  Slav_Intro: {fileID: 8300000, guid: 22909ffcc223a38419f1d85f28734bbd, type: 3}
+  Slav_Attack1: {fileID: 8300000, guid: 9c064427ee1af1b45857890ce21a78be, type: 3}
+  Slav_Attack2: {fileID: 8300000, guid: 76e873e3c589a4145a85c4baf04a9903, type: 3}
+  Slav_Attack3: {fileID: 8300000, guid: cb96cb97a379ef345ade1b4dd205a7eb, type: 3}
+  Slav_Dead: {fileID: 8300000, guid: 1097e0dd66ef6ca4fac9d9ad0857b80c, type: 3}
+  Player_Attack: {fileID: 8300000, guid: 6a610470da0921a4f858436ea6bb5816, type: 3}
+  Player_Reload: {fileID: 8300000, guid: 9b56db47aaf176f408b6baeef6d35fb1, type: 3}
+  Player_Knife: {fileID: 8300000, guid: e902c59a7a5a70e48bce7130cc6fcfd4, type: 3}
+  Player_Dash: {fileID: 8300000, guid: de01ebd60130717498871a14a06d114a, type: 3}
+  Player_DMG: {fileID: 8300000, guid: bab40b656ebfefb4a8a6d0bf0316523f, type: 3}
+  OpenShop: {fileID: 8300000, guid: 6d0dfa1f3376e9543a8eed164639e921, type: 3}
+  QuitShop: {fileID: 8300000, guid: ac375d2b9a9469c4085b0d5994a9ec4a, type: 3}
+  BuyShop: {fileID: 8300000, guid: b011671a0a3821b4eb515b299b40bf8d, type: 3}
+  GetMoney: {fileID: 8300000, guid: 202446e07ac690a408bce6bf545fbd46, type: 3}
+  Enter_Gate: {fileID: 8300000, guid: 1b1c05946eccec24db015f4bfa40666f, type: 3}
+  Heal: {fileID: 8300000, guid: b796b921c12e4314e99e47baede53e81, type: 3}
+  BGM_Stage1: {fileID: 8300000, guid: 85b04ebefc05164469d09b275925e529, type: 3}
+  BGM_Stage2: {fileID: 8300000, guid: d823b241135c0ac4ca97ff5988dbcbf6, type: 3}
+  BGM_Stage3: {fileID: 8300000, guid: 6e73dce8f4cb0fa4bb64b2f8f302a878, type: 3}
+  BGM_OWO: {fileID: 8300000, guid: 42efe92e471bee14ca1e7b231f8c6810, type: 3}
+  BGM_Snake: {fileID: 8300000, guid: 08230b80c9c504546b30c09d09fe5c61, type: 3}
+  BGM_Slav: {fileID: 8300000, guid: 98ce20cf5ebb99e4297d654c246b6bc8, type: 3}
+  Swing: {fileID: 8300000, guid: acd78581bbdfbea4e8dc522309180b8d, type: 3}
+  Jump: {fileID: 8300000, guid: 54e3b7eb496616841b6a9f5cb81643a0, type: 3}
+  Bear_Gun: {fileID: 8300000, guid: d64351d8e966ad54d95df480fc88e053, type: 3}
+  SnowDestroy: {fileID: 8300000, guid: aecb41014de394c4abcfa7685c7e986c, type: 3}
+  Death: {fileID: 8300000, guid: 1f6b3b4d64864204482ecbb89f073449, type: 3}
+  Credit: {fileID: 8300000, guid: 266ca56f199bbdb41afa9a06876a64f7, type: 3}
+  Grenade_Throw: {fileID: 8300000, guid: 16ef4c6a2d43fa048a421ba05c552544, type: 3}
+  RPG_Shot: {fileID: 8300000, guid: cf93f5b8c0d93b244b80c190c3eaaa25, type: 3}
+  RPG_Boom: {fileID: 8300000, guid: 69f1490ef1eb5fd438792e081d89f1d8, type: 3}
+  AirP_Break1: {fileID: 8300000, guid: 462ee27def6e0fc4d9ee081c5d41bbbd, type: 3}
+  AirP_Break2: {fileID: 8300000, guid: 4dd28a8fe0e0fbb459bb0a9fb1833c96, type: 3}
+  AirP_Break3: {fileID: 8300000, guid: b3a9e447f7f41874fae1325d77209d16, type: 3}
